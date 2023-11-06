@@ -1,7 +1,7 @@
 /**
  * *@author Raphael Vicentini
  * @version 1.03
- * @since Realese 1.02 da Aplicação
+ * @since Realese 02/11/2023
  * 
  * Classe de teste para a classe Calculadora.
  * Esta classe contém cenários de testes para os métodos de somar, subtrair, multiplicar e dividir
