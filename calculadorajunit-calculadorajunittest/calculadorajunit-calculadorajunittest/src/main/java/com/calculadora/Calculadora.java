@@ -1,51 +1,56 @@
 package com.calculadora;
 
 /**
- * Classe calculadora que reailiza as quatro operações básicas
- * da matemática: Soma, subtração, divisão e multiplicação
+ * Classe Calculadora
+ * 
+ * Esta classe implementa as quatro operações matemáticas básicas: soma, subtração, multiplicação e divisão.
  */
 public class Calculadora {
     /**
-     * Realiza a soma de dois números inteiros
-     * 
-     * @param a
-     * @param b
-     * @return
+     * Realiza a operação de soma entre dois números inteiros.
+     *
+     * @param a O primeiro número inteiro a ser somado.
+     * @param b O segundo número inteiro a ser somado.
+     * @return A soma dos dois números inteiros.
      */
     public int somar(int a, int b) {
         return a + b;
     }
 
     /**
-     * Realiza a subtração de dois números inteiros
-     * 
-     * @param a
-     * @param b
-     * @return
+     * Realiza a operação de subtração entre dois números inteiros.
+     *
+     * @param a O número inteiro do qual o segundo número será subtraído.
+     * @param b O número inteiro a ser subtraído do primeiro número.
+     * @return A diferença entre os dois números inteiros.
      */
     public int subtrair(int a, int b) {
         return a - b;
     }
 
     /**
-     * Realiza a multiplicação de dois números inteiros
-     * 
-     * @param a
-     * @param b
-     * @return
+     * Realiza a operação de multiplicação entre dois números inteiros.
+     *
+     * @param a O primeiro número inteiro a ser multiplicado.
+     * @param b O segundo número inteiro a ser multiplicado.
+     * @return O produto dos dois números inteiros como um valor de ponto flutuante (double).
      */
     public double multiplicar(int a, int b) {
         return a * b;
     }
 
     /**
-     * Realiza a divisão de dois números inteiros
-     * 
-     * @param a
-     * @param b
-     * @return
+     * Realiza a operação de divisão entre dois números inteiros.
+     *
+     * @param a O numerador, o número do qual será realizada a divisão.
+     * @param b O denominador, o número pelo qual o numerador será dividido.
+     * @return O resultado da divisão como um valor de ponto flutuante (double).
+     * @throws ArithmeticException Se a divisão por zero for detectada, uma exceção será lançada.
      */
-    public double dividir(int a, int b) {
-        return a / b;
+    public double dividir(int a, int b) throws ArithmeticException {
+        if (b == 0) {
+            throw new ArithmeticException("Não é possível dividir por zero.");
+        }
+        return (double) a / b;
     }
 }
