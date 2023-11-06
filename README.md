@@ -1,33 +1,30 @@
-# Calculadora JUnit
+# Teste Automatizado da Calculadora
 
-## Descrição
+**Descrição**
 
-Classe de calculadora desenvolvida em Java.
+Este é um projeto de teste automatizado de uma calculadora em Java, usando o framework JUnit 5. O objetivo principal deste projeto é demonstrar como realizar testes automatizados em uma calculadora, garantindo a precisão de suas operações.
 
-## Funcionalidades
+# **Funcionalidades da Calculadora**
 
-A classe `Calculadora` possuí os seguintes métodos:
+A calculadora implementa as seguintes funcionalidades:
 
-* `public int somar(int a, int b)`: Realiza a soma de `a` e `b` e retorna um inteiro.
+- Adição
+- Subtração
+- Multiplicação
+- Divisão
 
-* `public int subtrair(int a, int b)`: Realiza a subtração de `b` por `a` e retorna um inteiro.
+# **Testes Automatizados**
 
-* `public float multiplicar(int a, int b)`: Realiza a multiplicação de `a` por `b` e retorna um número do tipo float.
+Para garantir a precisão e confiabilidade das operações da calculadora, foram desenvolvidos testes automatizados utilizando o JUnit 5. Cada função da calculadora possui seus próprios testes unitários, que verificam se as operações retornam os resultados esperados. Além disso, os testes abordam cenários especiais, como a divisão por zero, garantindo que a calculadora lide corretamente com essas situações.
 
-* `public float dividir(int a, int b)`: Realiza a divisão de `a` por `b` e retorna um número do tipo float.
+# **Executando os Testes**
 
-### Requisitos
+Para executar os testes automatizados, siga os passos abaixo:
 
-Para a utilização do projeto e a realização de seus testes são necessários alguns requisitos:
+1. Certifique-se de ter o ambiente de desenvolvimento Java configurado em sua máquina.
 
-* Possuir Java instalado em sua máquina
+2. Abra o projeto em sua IDE de preferência.
 
-### Como executar
+3. Navegue até o diretório onde os testes estão localizados.
 
-* Clonar este repositório:
-
-````bash
-git clone https://github.com/vitorbizarra/calculadorajunit.git
-````
-
-* Rodar o método main da classe `CalculadoraTestes.java`
+4. Execute os testes utilizando o JUnit Runner disponível em sua IDE, garantindo que a calculadora se comporta conforme o esperado em todos os cenários de teste.
