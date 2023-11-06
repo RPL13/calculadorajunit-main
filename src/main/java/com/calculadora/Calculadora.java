@@ -1,4 +1,8 @@
 /**
+ * *@author Raphael Vicentini
+ * @version 1.03
+ * @since Realese 1.02 da Aplicação
+ * 
  * Classe Calculadora
  * Esta classe implementa operações matemáticas simples, como soma, subtração, multiplicação e divisão.
  */
