@@ -24,10 +24,5 @@ Para a utilização do projeto e a realização de seus testes são necessários
 
 ### Como executar
 
-* Clonar este repositório:
-
-````bash
-git clone https://github.com/vitorbizarra/calculadorajunit.git
-````
 
 * Rodar o método main da classe `CalculadoraTestes.java`
