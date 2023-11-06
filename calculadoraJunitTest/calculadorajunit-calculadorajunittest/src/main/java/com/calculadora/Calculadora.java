@@ -1,6 +1,10 @@
 package com.calculadora;
 
 /**
+ * *@author Raphael Vicentini
+ * @version 1.03
+ * @since Realese 1.02 da Aplicação
+ * 
  * Classe Calculadora
  * 
  * Esta classe implementa as quatro operações matemáticas básicas: soma, subtração, multiplicação e divisão.
